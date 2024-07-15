@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(216, 235, 226);
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-family: "Audiowide", sans-serif;
+
+}
+.QrcodeContainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-bottom: 40px;
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: white; 
+}
+img{
+    border-radius: 15px;
+}
+.writeup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-right: 20px;
+
+}
+h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+    color: grey;
+    font-weight: 500;
+}
+h2, p{
+    
+    text-align: center;
+    padding-top: 15px;
+}
+.image{
+    padding-top: 12px;
+}
+@media (min-width:320px) and (max-width:375px)  {
+ .QrcodeContainer{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-right: 25px;
+    background-color: black;
+ }
+ img{
+    width: 250px;
+ }
+ .image{
+    padding-right: 12px;
+ }
+ h2{
+    color: white;
+ }
+ p{
+    color: rgb(76, 76, 160);
+    font-weight: 600;
+ }
+
+}
+@media (min-width:785px) and (max-width:1440px)  {
+    .QrcodeContainer{
+       display: flex;
+       flex-direction: column;
+       width: 350px;
+       padding-right: 25px;
+       background-color: white;
+    }
+    img{
+       width: 300px;
+       height: 300px;
+
+    }
+    .image{
+       padding-right: 12px;
+    }
+   }
+   
